@@ -1,0 +1,4 @@
+benchmark,baseline_Q,baseline_T,baseline_cost,our_Q,our_T,our_cost,ratio,notes
+invsqrt,260,7735,2076774.23,231,6852,1641977.380188087,1.264800755,"cost = Q*C, C = Toffoli + T/4; three-salt verifier agreement, bit-for-bit"
+dqi,1893,5725109.856,2.443946e13,1893,5164840.586,,1.103410,"cost = R(eps+)*Q^2*T; ratio under the official salted sample point (offline unsalted = 1.108478)"
+dfthcsos,730,93237,3.3556e9,730,93237,3.3556e9,1.000000,"cost = lambda_eff*T_total*Q_total; deliberately unchanged"

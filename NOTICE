@@ -1,0 +1,29 @@
+Google Quantum AI — Verifiable Quantum Circuit Compilation (2026) — Support Materials
+Copyright 2026 the authors
+
+This product includes software developed as part of the above competition.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+these files except in compliance with the License. You may obtain a copy of the
+License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+
+---
+
+Third-party notices
+
+* The package contains no competition data, no verifier sources, no submission
+  binaries, and no third-party datasets or models. The competition inputs and the
+  Flash-THC starter-kit dataset are described in README.md §4.2 but are not
+  redistributed here; they remain subject to the competition's own terms.
+
+* `kickmix` is a third-party native extension compiled from the upstream Qualtran
+  source tree. It is NOT redistributed in this repository. README.md §4.1 records
+  the exact build recipe used. Qualtran is distributed under the Apache License,
+  Version 2.0.

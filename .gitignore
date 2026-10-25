@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# Competition inputs and generated artifacts (too large / not ours to publish)
+data/
+build/
+*.kmb
+*.kmx
+*.zip
+*.fcidump
+*.npz
+
+# Credentials — never commit any of these
+*credential*
+*session*.json
+*token*
+*.pem
+.env
+.env.*
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
